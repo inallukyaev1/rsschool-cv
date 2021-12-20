@@ -1,4 +1,5 @@
 # ***Inal Lukyaev***
+![avatar](my_photo.png)
 
 *****
 
