@@ -35,6 +35,7 @@ Hi! I'm 20 years old.
 * Git
 * VsCode
 * Figma, Adobe Photoshop, Zepplin
+* English A2(Pre-Intermediate)
 
 ****
 
