@@ -1,12 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#summary" class="nav-link">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Code" class="nav-link">Code Example</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#courses" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#english" class="nav-link">English</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="profile" id="profile">
+                <div class="profile_wrapper">
+                    <div class="profile__img">
+                        <img src="assets/img/222.png" alt="My_photo">
+                    </div>
+                    <div class="profile_info">
+                        <h1 class="profile_name"> Inal Lukyaev</h1>
+                        <div class="profile_position">Junior Frontend Devoloper </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="summary" id="summary">
+                <h2 class="title">Summary</h2>
+                <div class="summary_descr">
+                    <p>Hi! I’m 20 years old. I want to learn Front-End Development !
+                        I have good interpersonal skills, am an excellent team worker and very willing to learn and
+                        develop new skills. <br>
+                        My core strengths are in problem solving and fast learning.I want to get knowledge and skills
+                        that will be enough for employment in a company.</p>
+                    <p>Now i study at the RS School on the Js Frontend.</p>
+                </div>
+            </section>
+            <div class="wrapper">
+                <section class="contacts" id="Contacts">
+                    <h2 class="title">Contacts </h2>
+                    <ul class="contacts-list">
+                        <li class="contacts-item">
+                            <a href="https://en.wikipedia.org/wiki/Nalchik" target="_blank">
+                                <i class="fas fa-street-view"></i>Nalchik, Russia
+                            </a>
+                        </li>
+                        <li class="contacts-item item2">
+                            <a href="mailto:lukyaevinal@gmail.com" target="_blank">
+                                <i class="fas fa-envelope-open"></i>lukyaevinal@gmail.com
+                            </a>
+                        </li>
+                        <li class="contacts-item item3">
+                            <a href="https://github.com/inallukyaev1" target="_blank">
+                                <i class="fab fa-github"></i>inallukyaev1
+                            </a>
+                        </li>
+                        <li class="contacts-item item5">
+                            <a href="https://telegram.im/@InalLukyaev" target="_blank">
+                                <i class="fab fa-telegram"></i>InalLukyaev
+                            </a>
+                        </li>
+                        <li class="contacts-item item4"><a href="https://discord.com/" target="_blank">
+                                <i class="fab fa-discord"></i>inal(@inallukyaev1)
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="skills" id="skills">
+                    <h2 class="title">Skills</h2>
+                    <ul class="skills-list">
+                        <li class="skills-item">
+                            <i class="fab fa-html5"></i>HTML
+                        </li>
+                        <li class="skills-item">
+                            <i class="fab fa-css3-alt"></i>CSS/SASS
+                        </li>
+                        <li class="skills-item">
+                            <i class="fab fa-js"></i>JavaScript(Basic)
+                        </li>
+                        <li class="skills-item">
+                            <i class="fab fa-git-square"></i>Git
+                        </li>
+                        <li class="skills-item">
+                            <i class="fab fa-figma"></i>Figma
+                        </li>
+                    </ul>
+                </section>
+                <section class="projects" id="projects">
+                    <h2 class="title">Projects</h2>
+                    <ul class="projects-list">
+                        <li class="projects-item">
+                            <a href="#"><i class="fas fa-file"></i>CV project</a>
+                        </li>
+                        <li class="projects-item">
+                            <a href="https://inallukyaev1.github.io/rsschool-cv/cv" target="_blank"><i
+                                    class="fas fa-file"></i>CV project (Markdown)</a>
+                        </li>
+                    </ul>
+
+                </section>
+                <section class="english" id="english">
+                    <h2 class="title">English </h2>
+                    <ul class="english-list">
+                        <li class="english-item">
+                            <i class="fas fa-globe"></i>English A2(Pre-Intermediate)
+                        </li>
+                    </ul>
+
+                </section>
+            </div>
+            <section class="code" id="Code">
+                <h2 class="title">Code Example</h2>
+                <div class="code_example">
+                    <pre>
+                        <code>
+                            <span class="c-p">function</span> <span class="c-b">sum</span>(a, b) { 
+                            <span class="c-p">return</span> a + b;
+                            }
+                            <span class="c-p">let</span> result = sum(1, 2);
+                            <span class="c-b">alert</span>( result );
+                        </code>
+                    </pre>
+                </div>
+            </section>
+            <section class="courses" id="courses">
+                <h2 class="title">Courses</h2>
+                <ul class="courses-list">
+                    <li class="courses-item">
+                        <a class="courser-link" href="https://rs.school/" target="blank"><i
+                                class="fas fa-laptop-code"></i>RS Schools Course JavaScript/Front-end. (in progress)</a>
+                    </li>
+                    <li class="courses-item">
+                        <a class="courser-link" href="https://www.udemy.com/course/fundamental-javascript/"
+                            target="_blank"><i class="fas fa-laptop-code"></i>Udemy Course Fundamental Javascript</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="footer_year">2021</div>
+                <div class="footer_git">
+                    <a href="https://github.com/inallukyaev1" target="_blank">
+                        Git Hub
+                    </a>
+                </div>
+                <div class="footer_rss-logo">
+                    <a href="https://rs.school/js/" target="_blank"><img
+                            src="https://mrks77.github.io/rsschool-cv/img/rs_school_js.svg" alt="logotype_rss"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/89bb33bc8b.js" crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
