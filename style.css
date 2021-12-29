@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    background: rgb(0, 0, 0);
+}
+ul{
+    list-style-type: none;
+}
+ul, 
+pre {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 1rem 1rem rgb(98 98 98); 
+}
+
+/* Header */
+.nav {
+    padding: 0 40px;
+    border-left: 40px solid orange;
+    border-right: 40px solid orange;
+    background-color: black;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 700;
+    list-style-type: none;
+    text-transform: uppercase;
+    
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, .5);
+    transition: .5s all;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Profile */
+.profile_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 50px;
+    background: rgb(73, 73, 73);
+    color: #ffff;
+    
+}
+
+.profile__img img {
+    border-radius: 25px;
+    
+}
+
+.profile_info {
+    padding-right: 100px;
+    color: black;
+}
+
+.profile_name {
+    padding-bottom: 10px;
+    border-bottom: 3px #6b2121 solid;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+
+.profile_position {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+/* About me */
+.summary  {
+    padding: 30px 100px;
+    background-color: rgb(107, 33, 33);
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.summary_descr {
+    text-align: center;
+    font-weight: 500;
+}
+
+/*Wrapper of  more sections */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: 500;
+}
+
+.wrapper ul{
+    margin-top: 30px;
+}
+
+.wrapper section{
+    width:50%;
+    padding: 20px 100px;
+    background:rgb(73, 73, 73);
+}
+
+/* Contacts */
+
+.contacts-item{
+    padding-left: 5px;
+    margin-bottom: 5px;
+} 
+
+.contacts-item a , .item4.fab a {
+    transition: .6s all;
+}
+
+.contacts-item a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.fas, .fab {
+    display: inline-block;
+    margin-right: 10px;
+}
+.item4  {
+    padding-left: 2px;
+    
+}
+
+.item4 .fab {
+    margin-right: 9px;
+}
+
+
+/* English */
+.english {
+    border-top: 1px solid #000;
+    border-left:1px solid #000 ;
+}
+.english-item  {
+    padding-left: 11px;
+    margin-bottom: 5px;
+}
+
+
+/* Projects */
+.projects {
+    border-top: 1px solid #000;
+}
+
+.projects-list{
+    padding-left: 5px;
+}
+
+.projects-item{
+    padding-left: 2px;
+    margin-bottom: 5px;
+} 
+
+.projects-item a , .item4.fab a {
+    transition: .6s all;
+}
+
+.projects-item a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+/* Skills */
+.skills {
+    border-left: 1px solid #000;
+}
+
+.skills-item  {
+    padding-left: 11px;
+    margin-bottom: 5px;
+}
+.skills-item .fab{
+    margin-right: 11px;
+}
+.skills-item6 .fas {
+    margin-right: 10px;
+}
+.skills-item6{
+    padding-left: 9px;
+}
+
+
+/* Code */
+.code { 
+    padding: 20px ;
+    background:rgb(107, 33, 33);
+
+}
+
+.code_example {
+    border-radius: 33px;
+    margin-top: 30px;
+    padding: 0 100px;
+    background:rgb(73, 73, 73);
+}
+
+.c-p {
+    color: rgb(255, 174, 0);
+}
+
+.c-b {
+    color: rgba(44, 255, 2, 0.61);
+}
+
+/* Courses */
+.courses {
+    padding: 20px 100px;
+    background: rgb(107, 33, 33);
+}
+
+.courses-list {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.courses-item {
+    margin-bottom: 5px;
+}
+
+.courses-item a {
+    transition: .5s all;
+}
+
+.courses-item a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+/* Footer */
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    background:rgb(73, 73, 73);
+}
+
+.footer_git {
+    text-transform:capitalize;
+    transition: .5s all;
+}
+
+.footer_rss-logo img {
+    width: 100px;
+}
+.footer_rss-logo , .footer_git{ 
+    transition: .5s all;
+}
+.footer_rss-logo:hover, .footer_git:hover {
+    background-color: white;
+    border-radius: 20%;
+}
+
+
+
+
