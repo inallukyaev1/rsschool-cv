@@ -81,28 +81,6 @@ a {
   transition: 0.5s all;
 }
 
-.menu_hamburger.hamburger_active {
-  position: fixed;
-  right: 70px;
-  margin-top: 25px;
-}
-
-.menu_hamburger.hamburger_active span {
-  margin-bottom: -2px;
-}
-
-.menu_hamburger.hamburger_active span:first-child {
-  transform: rotate(-45deg);
-}
-
-.menu_hamburger.hamburger_active span:nth-child(2) {
-  display: none;
-}
-
-.menu_hamburger.hamburger_active span:nth-child(3) {
-  transform: rotate(45deg);
-}
-
 /* Profile */
 .profile_wrapper {
   display: flex;
